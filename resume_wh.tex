@@ -1,0 +1,63 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% !Mode:: "TeX:UTF-8"
+
+\documentclass{resume}
+\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+\usepackage{linespacing_fix} % disable extra space before next section
+\usepackage{cite}
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{汪寒}
+
+\basicInfo{
+  \email{wanghwh@foxmail.com} \textperiodcentered\ 
+  \phone{(+86) 17794536556} \textperiodcentered\ 
+  \linkedin[billryan8]{https://www.linkedin.com/in/billryan8}}
+ 
+\section{\faGraduationCap\  教育背景}
+\datedsubsection{\textbf{浙江大学}, 杭州，浙江}
+\textit{在读硕士研究生}\ 计算机科学与技术, 预计 2020 年 3 月毕业
+\datedsubsection{\textbf{江南大学}, 无锡, 江苏}
+\textit{学士}\ 电子工程
+
+\section{\faUsers\ 实习/项目经历}
+\datedsubsection{\textbf{海知智能} 上海}{2017年5月 -- 2017年9月}
+\role{实习}
+知识图谱实习生
+\begin{itemize}
+  \item 数据爬取和数据处理
+  \item 爬取了百度百科，天天基金网等数十个网站的数据
+  \item 管理部分爬虫服务器并实现定时更新
+\end{itemize}
+
+\datedsubsection{\textbf{部分NLP论文复现}}
+\role{Tensorflow, Python}{个人项目}
+\begin{onehalfspacing}
+自行复现了部分论文代码，并实现了相近的性能
+\end{onehalfspacing}
+
+% Reference Test
+%\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
+%An xxx optimized for xxx\cite{verma2015large}
+%\begin{itemize}
+%  \item main contribution
+%\end{itemize}
+
+\section{\faCogs\ IT 技能}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item 编程语言: Python > C++
+  \item 平台: 可以较为熟练地使用Linux
+  \item 开发: 较为了解Tensorflow框架的使用
+\end{itemize}
+
+
+%% Reference
+%\newpage
+%\bibliographystyle{IEEETran}
+%\bibliography{mycite}
+\end{document}
